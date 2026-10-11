@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Kelola Blog — Admin</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<header class="nav"><div class="wrap nav-inner">
+  <span class="brand tag">admin/blog</span>
+  <nav id="nav-links" hidden>
+    <a href="/blog.html" target="_blank">Lihat blog</a>
+    <a href="/" target="_blank">Lihat situs</a>
+    <a href="#" id="logout">Keluar</a>
+  </nav>
+</div></header>
+
+<main id="login-view" class="login" hidden>
+  <form id="login-form" class="login-card">
+    <div class="tag" style="color:var(--accent)">ADMIN / BLOG</div>
+    <h1>Masuk</h1>
+    <p class="err-msg" id="login-err" hidden></p>
+    <label class="field"><span>Password</span><input type="password" name="password" required autofocus></label>
+    <button class="btn btn-primary" type="submit">Masuk</button>
+  </form>
+</main>
+
+<main id="app-view" class="admin wrap" hidden>
+  <aside class="admin-list">
+    <button class="btn btn-primary" id="new-post" type="button">+ Tulisan baru</button>
+    <ul id="post-list"></ul>
+  </aside>
+  <section class="admin-form" id="editor"><p class="empty">Pilih tulisan atau buat yang baru.</p></section>
+</main>
+
+<div id="toast" class="toast" hidden></div>
+<script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+[
+  {
+    "slug": "membangun-sistem-rental-dengan-pembayaran-otomatis",
+    "title": "Membangun Sistem Rental dengan Pembayaran Otomatis",
+    "date": "2026-10-03",
+    "category": "Studi Kasus",
+    "excerpt": "Bagaimana sistem rental PlayStation bisa menagih pelanggan tiap bulan tanpa hitung manual.",
+    "cover": "img/balanceplay.jpg",
+    "body": [
+      { "type": "p", "text": "Masalah paling sering di usaha rental adalah tagihan bulanan yang lupa dicatat. Admin harus mengingat siapa yang sudah bayar, siapa yang menunggak, lalu mengirim pesan satu per satu." },
+      { "type": "h2", "text": "Apa yang dibutuhkan" },
+      { "type": "ul", "items": [
+        "Status pembayaran per pelanggan yang bisa dilihat sekilas",
+        "Invoice yang dibuat otomatis dengan link pembayaran",
+        "Pengingat tagihan yang dikirim tanpa perlu mengetik ulang"
+      ]},
+      { "type": "p", "text": "Dengan kebutuhan tersebut, sistem cukup menyimpan jadwal tagihan di database lalu memanggil API pembayaran setiap kali tagihan jatuh tempo." },
+      { "type": "quote", "text": "Yang penting bukan fitur terbanyak, tetapi alur yang tidak membuat admin berpikir dua kali." },
+      { "type": "p", "text": "Tulisan berikutnya akan membahas struktur tabel dan alur webhook untuk memastikan status bayar selalu sinkron." }
+    ]
+  },
+  {
+    "slug": "halaman-profil-perusahaan-yang-menghasilkan-calon-klien",
+    "title": "Halaman Profil Perusahaan yang Menghasilkan Calon Klien",
+    "date": "2026-09-20",
+    "category": "Catatan",
+    "excerpt": "Beberapa hal sederhana yang membuat company profile lebih mudah dihubungi.",
+    "body": [
+      { "type": "p", "text": "Company profile sering hanya berisi daftar layanan. Pengunjung yang datang perlu lebih dari itu: bukti pengalaman dan jalan yang jelas untuk menghubungi." },
+      { "type": "h2", "text": "Tiga hal yang saya perhatikan" },
+      { "type": "ul", "items": [
+        "Tampilkan contoh proyek nyata, lengkap dengan konteks klien",
+        "Letakkan tombol kontak di tempat yang selalu terlihat",
+        "Pastikan halaman terbuka dengan cepat di ponsel"
+      ]},
+      { "type": "p", "text": "Ketiganya terlihat sepele, tetapi biasanya menentukan apakah pengunjung benar-benar mengirim pesan." }
+    ]
+  }
+]
